@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration()  //service for store and server request
   ],
   bootstrap: [AppComponent]
 })

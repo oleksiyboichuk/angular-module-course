@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-course';
+
+  user = {
+    name: "Alex",
+    age: '21',
+  };
+
+  tooltip = "Some secret";
+
+  inlineStyle = {
+    width: '50%',
+    background: 'green'
+  }
+
+  classStyle = 'blue';
+
+  someNumber = 20
 }
